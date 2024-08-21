@@ -20,6 +20,7 @@ decipher.on('readable', () => {
     decrypted += chunk.toString('utf8');
   }
 });
+
 decipher.on('end', () => {
   console.log(decrypted);
   // Prints: some clear text data
