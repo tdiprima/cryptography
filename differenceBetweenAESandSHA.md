@@ -21,4 +21,6 @@ AES (Advanced Encryption Standard) and SHA (Secure Hash Algorithm) serve differe
 
 In summary, AES is used when you need to securely encrypt data, while SHA is used when you need to ensure data has not been tampered with by generating a unique hash.
 
+&mdash; *ChatGPT*
+
 <br>
