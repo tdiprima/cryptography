@@ -26,7 +26,8 @@ decipher.on('end', () => {
   // Prints: some clear text data
 });
 
-// Encrypted with same algorithm, key and iv.
+// The encryption and decryption processes are symmetric, meaning that if you know the key, algorithm, and IV used to encrypt data, you can use the same information to decrypt it.
+// In real-world applications, the encrypted string would typically come from an external source (e.g., a file, database, or network), and the script wouldn't "know" it ahead of time.
 const encrypted =
   'e5f79c5915c02171eec6b212d5520d44480993d7d622a7c4c2da32f6efda0ffa';
 decipher.write(encrypted, 'hex');
