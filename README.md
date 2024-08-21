@@ -1,3 +1,3 @@
 # cryptography
 
-Exploring how this works
+Getting a grasp of how this works
